@@ -9,3 +9,14 @@ var img2 = document.querySelectorAll("img")[1];
 
 img1.setAttribute("src", png1);
 img2.setAttribute("src", png2);
+
+
+if (randomnumber1 > randomnumber2){
+    document.querySelector("h1").innerHTML="Player 1 Wins !";
+}
+else if (randomnumber1 === randomnumber2){
+    document.querySelector("h1").innerHTML="No one wins !";
+}
+else {
+     document.querySelector("h1").innerHTML="Player 2 Wins !";
+}
